@@ -3,7 +3,7 @@ Clone Uber in React Native
 
 
 
-##Issues I encountered during the project: 
+## Issues I encountered during the project: 
 
 ### 1. not found for architecture x86_64
 solution: use `arch -x86_64 yarn ios` instead of `yarn ios` to start the simulator
