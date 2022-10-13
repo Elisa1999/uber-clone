@@ -8,7 +8,7 @@ Clone Uber in React Native
 ### 1. not found for architecture x86_64
 solution: use `arch -x86_64 yarn ios` instead of `yarn ios` to start the simulator
 
-### 2. Check the render method of `DrawerNavigator`
+### 2. Check the render method of `DrawerNavigator` | Requiring unknown module "undefined". If you are sure the module exists, try restarting Metro
 solution: forgot to install react-native-screens
 1. `yarn add react-native-screens`
 2. go into ios folder and run `pod install` 
