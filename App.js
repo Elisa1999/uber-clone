@@ -5,7 +5,7 @@
  * @format
  * @flow strict-local
  */
-import { NavigationContainer } from '@react-navigation/native';
+import 'react-native-gesture-handler';
 import React, {useEffect} from 'react';
 import  {StatusBar} from 'react-native';
 import Router from './src/navigaion/Root';
